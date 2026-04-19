@@ -34,7 +34,7 @@ public class Atm{
         System.out.println(a.getBalance());
         a.deposit(200);
         if(a.withdraw(200) == true){
-            System.out.println("You're got money dawg");
+            System.out.println("You've got money dawg");
         } else{
             System.out.println("You're poor");
         }
